@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik Plomberie - Le Héros des Tuyaux</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: linear-gradient(to bottom, #007BFF, #00A3E0); color: #fff; }
+        header { background-color: #0056b3; padding: 20px; color: white; font-size: 24px; }
+        header h1 { display: inline-block; transition: all 0.3s ease; }
+        header h1:hover { text-decoration: underline; }
+        section { padding: 20px; }
+        .service, .testimonial, .fun-fact, .legend, .faq, .excuse-generator { background: white; margin: 10px auto; padding: 15px; width: 80%; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); color: #333; transition: transform 0.3s ease-in-out; }
+        .service:hover, .testimonial:hover, .fun-fact:hover { transform: scale(1.05); }
+        .contact-form { background: white; padding: 20px; width: 80%; margin: 20px auto; border-radius: 8px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); color: #333; }
+        footer { background-color: #00274D; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Malik Plomberie - Le Héros des Tuyaux</h1>
+        <img src="https://image.noelshack.com/fichiers/2025/08/4/1740038858-malik-le-plombier.jpg" style="width: 200px; border-radius: 50%;">
+        <p>"Fuites, bouchons, galères ? Malik arrive plus vite que ton évier ne déborde !"</p>
+    </header>
+    
+    <section>
+        <h2>Ses Services</h2>
+        <div class="service">💧 Débouchage express, même pour les cas désespérés ! On a déjà sauvé des canalisations condamnées à mort.</div>
+        <div class="service">🔥 Chauffe-eau en panne ? Faut pas rester sur le froid ! Malik réchauffe plus vite qu'un café au micro-ondes.</div>
+        <div class="service">🛠️ Réparations et installations, même pour les plombiers du dimanche. Si ton évier coule plus qu’une chanson triste, appelle Malik.</div>
+        <div class="service">🚰 Détection de fuites : Si ta facture d'eau est plus haute que la tour Eiffel, c’est peut-être le moment d’agir.</div>
+        <div class="service">🚽 WC bouché ? Ne panique pas ! Malik est plus rapide qu’un super-héros avec une ventouse.</div>
+    </section>
+    
+    <section>
+        <h2>Les Interventions Légendaires de Malik</h2>
+        <div class="legend">⚡ Un jour, Malik a réparé une fuite… avant même que le client ne s’en rende compte !</div>
+        <div class="legend">🏆 On raconte qu’il a débouché un évier tellement encrassé que l’eau y circulait depuis l’Antiquité.</div>
+        <div class="legend">💪 Il a arrêté une inondation en soufflant dessus. (Bon, il avait aussi une clé à molette…)</div>
+    </section>
+    
+    <section>
+        <h2>FAQ - Les Questions (Vraiment) Fréquentes</h2>
+        <div class="faq">Q: Si je mets du scotch sur ma fuite, ça tient ?<br>A: Oui… Jusqu’à ce que ça pète et que tu vives une version aquatique de Jumanji.</div>
+        <div class="faq">Q: Malik, tu fais des fuites d’amour aussi ?<br>A: Désolé, mais les cœurs brisés ne se réparent pas avec une clé à molette.</div>
+        <div class="faq">Q: Peut-on déboucher un évier avec du Coca ?<br>A: Possible, mais autant appeler Malik avant de transformer ton évier en fontaine gazeuse.</div>
+    </section>
+    
+    <section>
+        <h2>Générateur d’Excuses pour ne PAS appeler un plombier</h2>
+        <div class="excuse-generator">Clique ici pour découvrir pourquoi tu ne devrais pas appeler un pro !<br><br>
+            <button onclick="generateExcuse()">Générer une excuse</button>
+            <p id="excuse"></p>
+        </div>
+        <script>
+            function generateExcuse() {
+                const excuses = [
+                    "Je vais attendre que ça s’arrange tout seul, comme mon couple.",
+                    "Mon voisin a dit qu'il pouvait tenter un truc avec du chewing-gum.",
+                    "Si je mets un seau en dessous, ça compte comme réparé, non ?",
+                    "Un jour, je déménagerai. Pourquoi réparer quelque chose que je vais abandonner ?"
+                ];
+                document.getElementById("excuse").innerText = excuses[Math.floor(Math.random() * excuses.length)];
+            }
+        </script>
+    </section>
+    
+    <section>
+        <h2>Les Fun Facts de Malik</h2>
+        <div class="fun-fact">💡 Saviez-vous que 73% des gens tentent de réparer eux-mêmes leurs fuites… et 100% finissent par appeler Malik ?</div>
+        <div class="fun-fact">🚿 Un robinet qui fuit peut gaspiller jusqu’à 15 litres d’eau par jour ! Mais Malik répare ça plus vite que ton chat ne boit dans l’évier.</div>
+        <div class="fun-fact">🔧 L’origine du mot "plombier" remonte aux Romains. Mais aucun Romain n’a jamais eu la rapidité de Malik.</div>
+        <div class="fun-fact">🚽 Il existe un championnat du monde de débouchage de toilettes. Malik pense s’y inscrire… et gagner.</div>
+    </section>
+    
+    <section>
+        <h2>Contacte Malik</h2>
+        <div class="contact-form">
+            <p>Décris-moi ton problème, j'arrive avec ma clé à molette !</p>
+            <form>
+                <input type="text" placeholder="Nom" required><br><br>
+                <input type="email" placeholder="Email" required><br><br>
+                <textarea placeholder="Explique ton problème ici..." required></textarea><br><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Malik Plomberie - Les fuites c'est fini !</p>
+    </footer>
+</body>
+</html>
